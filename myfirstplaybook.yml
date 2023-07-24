@@ -1,0 +1,15 @@
+--- 
+- hosts: all
+  become: yes
+  tasks:
+  # apt-get install git 
+  - name:  i want to install git  on nodes
+    apt:
+      name: git
+      state: present
+
+  # apt-get install wget
+  - name:  i wan to install wget on nodes
+    apt:
+      name: wget
+      state: present
