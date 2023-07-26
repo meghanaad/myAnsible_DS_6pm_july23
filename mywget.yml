@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   tasks:
-  - name: i want to install wget
+  - name: i want to install wget target nodes
     apt:
      name: wget
      state: present
