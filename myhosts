@@ -17,3 +17,6 @@
  [myredhatservers]
  172.31.30.143
 
+[mywebservers:vars]
+mywebpackeonubuntu=apache2
+mywebpackonredhat=httpd
