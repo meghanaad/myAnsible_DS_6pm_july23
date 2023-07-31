@@ -10,6 +10,6 @@
 
   - name: install java on redhat nodes
     dnf:
-     name: "{{myjavaonRedHat}}"
+     name: "{{myjavaonredhat}}"
      state: present
     when: ansible_os_family =="RedHat"
