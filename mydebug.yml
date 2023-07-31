@@ -1,5 +1,5 @@
 ---
-- hosts: 172.3.6.109
+- hosts: 172.31.6.109
   become: yes
   tasks: 
    - name: i want to execute direct linux
@@ -9,4 +9,4 @@
    - name: i want to display my first result 
      debug: 
          msg:"{{myresult}}"
-         
+
