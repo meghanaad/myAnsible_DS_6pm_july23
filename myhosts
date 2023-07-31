@@ -10,11 +10,11 @@
 172.31.30.135
 172.31.30.100
 
- [myubuntuservers]
- 172.31.6.109
+[myubuntuservers]
+172.31.6.109
 
- [myredhatservers]
- 172.31.30.143
+[myredhatservers]
+172.31.30.143
 
 [mywebservers:vars]
 mywebpackeonubuntu=apache2

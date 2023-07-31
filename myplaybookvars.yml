@@ -8,7 +8,7 @@
   tasks:
    - name: I want to display myvar01
      debug:
-       msg:"{{myvar01}}"
+       msg: "{{myvar01}}"
 
 
 
